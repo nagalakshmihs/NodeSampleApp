@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nagalakshmihs/NodeSampleApp/issues"
   },
-  "homepage": "https://github.com/nagalakshmihs/NodeSampleApp"
+  "homepage": "https://github.com/nagalakshmihs/NodeSampleApp",
+  "dependencies": {
+    "express": "^4.2.0"
+  }
 }

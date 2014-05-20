@@ -1,10 +1,11 @@
-var http = require('http'); //add the http module
-var myServer = http.createServer(function(request, response) {
-  response.writeHead(200, {"Content-Type" : "text/html"});
-  response.write("<b>Hello</b> World");
-  response.end();
-}); //create a server
+var express = require('express');
+var app = express();
 
-myServer.listen(3000);
+app.get('/', function(req, res)
+{
+	res.send("Hellow world");
+});
 
-console.log("Go to http://localhost:3000 on your browser");
+var server = app.listen(3000, function(){
+	console.log("listening to 3000");
+});

@@ -5,5 +5,6 @@ This is sample project for my node and express
 
 ##What's in the project
 
-*Node.js
-*Express.js
+-[Node.js](http://nodejs.org)
+-[Express.js](http://expressjs.com/)
+- New Line

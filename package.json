@@ -1,0 +1,19 @@
+{
+  "name": "SampleApp",
+  "version": "0.0.0",
+  "description": "my sample node app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nagalakshmihs/NodeSampleApp.git"
+  },
+  "author": "Lakshmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nagalakshmihs/NodeSampleApp/issues"
+  },
+  "homepage": "https://github.com/nagalakshmihs/NodeSampleApp"
+}
